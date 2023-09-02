@@ -1,76 +1,76 @@
-@import url('https:/fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-}
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: #E3F2FD;
-}
-.wrapper {
-  width: 65vmin;
-  height: 70vmin;
-  display: flex;
-  overflow: hidden;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 5px;
-  background: linear-gradient(to bottom, #e70000 0%, #e70000 50%, #ffffff 50%, #ffffff 100%);
-  box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
-}
-.game-details {
-  color: #B8C6DC;
-  font-weight: 500;
-  font-size: 1.2rem;
-  padding: 20px 27px;
-  display: flex;
-  justify-content: space-between;
-}
-.play-board {
-  height: 100%;
-  width: 100%;
-  display: grid;
-  background: #212837;
-  grid-template: repeat(30, 1fr) / repeat(30, 1fr);
-}
-.play-board .food {
-  background: #FFFFFF;
-}
-.play-board .head {
-  background: #60CBFF;
-}
-.controls {
-  display: none;
-  justify-content: space-between;
-}
-.controls i {
-  padding: 25px 0;
-  text-align: center;
-  font-size: 1.3rem;
-  color: #B8C6DC;
-  width: calc(100% / 4);
-  cursor: pointer;
-  border-right: 1px solid #171B26;
-}
-@media screen and (max-width: 800px) {
-  .wrapper {
-    width: 90vmin;
-    height: 115vmin;
-  }
-  .game-details {
-    font-size: 1rem;
-    padding: 15px 27px;
-  }
-  .controls {
-    display: flex;
-  }
-  .controls i {
-    padding: 15px 0;
-    font-size: 1rem;
-  }
-}
+	@import url('https:/fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+	* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	}
+	body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: url('https://1.bp.blogspot.com/-DwB8lvX1ero/X6XX3ThO6CI/AAAAAAAAGo4/NKcAKIYSafA52A3G_Y9JrZ0d7YbZ4P_gwCLcBGAsYHQ/w680/kumpulan%2Bpuisi%2Bkemerdekaan-min.gif');
+	}
+	.wrapper {
+	width: 65vmin;
+	height: 70vmin;
+	display: flex;
+	overflow: hidden;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 5px;
+	background: url('https://media.tenor.com/lde4fc83ZgUAAAAM/bendera-merah-putih.gif');
+	box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
+	}
+	.game-details {
+	color: #B8C6DC;
+	font-weight: 500;
+	font-size: 1.2rem;
+	padding: 20px 27px;
+	display: flex;
+	justify-content: space-between;
+	}
+	.play-board {
+	height: 100%;
+	width: 100%;
+	display: grid;
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdozMw3m-lienRc0mtXtL9U5awHRQpOxNjR4GVje4yugHA9-Qad5K_5Xr2&s=10');
+	grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+	}
+	.play-board .food {
+	background: red;
+	}
+	.play-board .head {
+	background: green;
+	}
+	.controls {
+	display: none;
+	justify-content: space-between;
+	}
+	.controls i {
+	padding: 25px 0;
+	text-align: center;
+	font-size: 1.3rem;
+	color: #B8C6DC;
+	width: calc(100% / 4);
+	cursor: pointer;
+	border-right: 1px solid #171B26;
+	}
+	@media screen and (max-width: 800px) {
+	.wrapper {
+	width: 90vmin;
+	height: 115vmin;
+	}
+	.game-details {
+	font-size: 1rem;
+	padding: 15px 27px;
+	}
+	.controls {
+	display: flex;
+	}
+	.controls i {
+	padding: 15px 0;
+	font-size: 1rem;
+	}
+	}
